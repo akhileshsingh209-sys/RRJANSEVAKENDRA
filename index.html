@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RR JAN SEVA KENDRA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #ff9933, #ffffff, #138808);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            color: #000080;
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .welcome-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #000080;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ff9933;
+            padding-bottom: 10px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .service-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            border-left: 5px solid #138808;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .service-card h3 {
+            color: #ff9933;
+            margin-bottom: 10px;
+        }
+        .service-card ul {
+            list-style: none;
+        }
+        .service-card ul li {
+            padding: 8px 0;
+            font-size: 0.95rem;
+            border-bottom: 1px solid #eee;
+        }
+        .service-card ul li:last-child {
+            border-bottom: none;
+        }
+        .service-card ul li a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            transition: color 0.2s;
+        }
+        .service-card ul li a:hover {
+            color: #000080;
+            font-weight: bold;
+        }
+        .contact-section {
+            background: #000080;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        .contact-section p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>RR JAN SEVA KENDRA</h1>
+        <p>आपके गाँव और शहर का अपना डिजिटल सेवा केंद्र</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="welcome-box">
+            <h2>हमारे यहाँ सभी सरकारी और ऑनलाइन कार्य किए जाते हैं</h2>
+            <p>नीचे दी गई किसी भी सेवा पर क्लिक करके सीधे उसकी आधिकारिक वेबसाइट खोलें।</p>
+        </div>
+
+        <div class="services-grid">
+            
+            <!-- ई-डिस्ट्रिक्ट उत्तर प्रदेश -->
+            <div class="service-card" style="border-left-color: #ff9933;">
+                <h3>📜 UP e-District सेवाएं</h3>
+                <ul>
+                    <li><a href="https://edistrict.up.gov.in/edistrictup/">🔗 UP e-District मुख्य पोर्टल</a></li>
+                    <li><a href="https://esathi.up.gov.in/citizenservices/login/login.aspx">🔗 ई-साथी लॉगिन (ID Login)</a></li>
+                    <li><a href="https://digitalseva.csc.gov.in/" target="_blank">🔗 CSC लॉगिन(Verification)</a></li>
+                </ul>
+            </div>
+
+            <!-- पैन कार्ड ऑनलाइन अप्लाई -->
+            <div class="service-card">
+                <h3>🆔 PAN Card ऑनलाइन अप्लाई</h3>
+                <ul>
+                    <li><a href="https://onlineservices.proteantech.in/paam/endUserRegisterContact.html">🔗 नया पैन कार्ड / सुधार (NSDL)</a></li>
+                    <li><a href="https://utiitsl.com" target="_blank">🔗 नया पैन कार्ड / अप्लाई (UTIITSL)</a></li>
+                    <li><a href="https://incometax.gov.in" target="_blank">🔗 तुरंत फ्री ई-पैन (Instant E-PAN)</a></li>
+                </ul>
+            </div>
+
+            <!-- एयरटेल पेमेंट बैंक और बैंकिंग -->
+            <div class="service-card">
+                <h3>🏦 Airtel Bank & बैंकिंग</h3>
+                <ul>
+                    <li><a href="https://portal.airtelpayments.bank.in/RetailerPortal/" target="_blank">🔗 Airtel Payment Bank (रिटेलर लॉगिन)</a></li>
+                    <li><a href="https://myaadhaar.uidai.gov.in/" target="_blank">🔗 आधार कार्ड डाउनलोड (UIDAI)</a></li>
+                    <li><a href="https://nvsp.in" target="_blank">🔗 वोटर आईडी कार्ड अप्लाई (NVSP)</a></li>
+                </ul>
+            </div>
+
+            <!-- सरकारी योजनाएं -->
+            <div class="service-card">
+                <h3>🌾 सरकारी योजनाएं</h3>
+                <ul>
+                    <li><a href="https://pmkisan.gov.in" target="_blank">🔗 पीएम किसान सम्मान निधि (PM Kisan)</a></li>
+                    <li><a href="https://sspy-up.gov.in" target="_blank">🔗 यूपी वृद्धा, विधवा, दिव्यांग पेंशन</a></li>
+                    <li><a href="https://eshram.gov.in" target="_blank">🔗 ई-श्रम कार्ड (E-Shram Card)</a></li>
+                    <li><a href="https://beneficiary.nha.gov.in/">🔗 आयुष्मान भारत हेल्थ कार्ड</a></li>
+                </ul>
+            </div>
+
+            <!-- वाहन सेवाएं -->
+            <div class="service-card">
+                <h3>🚗 वाहन संबंधी सेवाएं</h3>
+                <ul>
+                    <li><a href="https://parivahan.gov.in" target="_blank">🔗 ड्राइविंग लाइसेंस (Sarathi)</a></li>
+                    <li><a href="https://parivahan.gov.in" target="_blank">🔗 गाड़ी की आरसी / टैक्स (Vahan)</a></li>
+                </ul>
+            </div>
+
+            <!-- अन्य ऑनलाइन कार्य -->
+            <div class="service-card">
+                <h3>💻 नौकरी और टिकट</h3>
+                <ul>
+                    <li><a href="https://sarkariresult.com" target="_blank">🔗 सरकारी नौकरी फॉर्म (Sarkari Result)</a></li>
+                    <li><a href="https://irctc.co.in" target="_blank">🔗 रेलवे टिकट बुकिंग (IRCTC)</a></li>
+                    <li><a href="https://vbgramg.dord.gov.in/vbgramg/home.aspx" target="_blank"><i class="fa-solid fa-star"></i>🔗 VB-G RAM G ( नरेगा )</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- संपर्क करने का स्थान -->
+        <div class="contact-section">
+            <h2>संपर्क करें (Contact Us)</h2>
+            <p>📍 <strong>पता:</strong> Village-Durawal Kalan Post-Oini Mishra</p>
+            <p>📞 <strong>मोबाइल नंबर:</strong> +91 9198428586</p>
+            <p>✉️ <strong>ईमेल:</strong> rrjansevakendra8586@email.com</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 RR Jan Seva Kendra. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
